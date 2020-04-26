@@ -39,7 +39,7 @@ if ENABLE_CINNAMON
 
 	cd $(srcdir)/cinnamon && cp -R \
 		common-assets \
-		light-assets \
+		assets-light \
 		cinnamon.css \
 		$(ithemedir)/cinnamon
 
@@ -50,7 +50,7 @@ if ENABLE_DARK
 
 	cd $(srcdir)/cinnamon && cp -R \
 		common-assets \
-		dark-assets \
+		assets-dark \
 		$(ithemedarkdir)/cinnamon
 
 	cd $(srcdir)/cinnamon && cp -R \
@@ -66,7 +66,7 @@ if ENABLE_GNOME_SHELL
 
 	cd $(srcdir)/gnome-shell/$(GNOME_VERSION) && cp -R \
 		common-assets \
-		light-assets \
+		assets-light \
 		gnome-shell.css \
 		$(ithemedir)/gnome-shell
 
@@ -75,7 +75,7 @@ if ENABLE_DARK
 
 	cd $(srcdir)/gnome-shell/$(GNOME_VERSION) && cp -R \
 		common-assets \
-		dark-assets \
+		assets-dark \
 		$(ithemedarkdir)/gnome-shell
 
 	cd $(srcdir)/gnome-shell/$(GNOME_VERSION) && cp -R \

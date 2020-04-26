@@ -1,7 +1,11 @@
 $variant: 'dark';
-$transparency: 'true';
-$darker: 'false';
+$trans: 'true';
+$titlebar: 'dark';
+$theme: 'default';
+$titlebutton: '';
 
 @import "_colors"; //use gtk colors
+@import "_variables";
 @import "_drawing";
 @import "_common";
+@import "_extensions";

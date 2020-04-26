@@ -1,7 +1,7 @@
 //This is the RIGHT PLACE to edit the stylesheet
 
 $panel-corner-radius: 0px;
-$asset_path: if($variant == 'dark', dark-assets, light-assets);
+$asset_path: if($variant == 'dark', assets-dark, assets-light);
 
 /* Copyright 2009, 2015 Red Hat, Inc.
  *
