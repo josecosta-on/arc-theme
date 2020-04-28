@@ -1,2 +1,2 @@
-sudo apt -y install autoconf;sudo apt -y install automake;sudo apt -y install pkgconf;sudo apt -y install make;
+sudo apt -y install autoconf;sudo apt -y install automake;sudo apt -y install make;
 ./autogen.sh --prefix=/usr -with-gnome=3.22;sudo make install
