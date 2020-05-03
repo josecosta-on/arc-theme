@@ -6,7 +6,8 @@ stage {
 .label-shadow {
   color: transparent; }
 
-.menu #notification .notification-button, .menu #notification .notification-icon-button,
+.menu #notification .notification-button,
+.menu #notification .notification-icon-button,
 .popup-menu #notification .notification-button,
 .popup-menu #notification .notification-icon-button, .sound-button {
   min-height: 20px;
@@ -17,23 +18,31 @@ stage {
   background-color: #fbfbfc;
   border: 1px solid #cfd6e6;
   box-shadow: inset 0 2px 4px rgba(251, 251, 252, 0.05); }
-  .menu #notification .notification-button, .menu #notification .notification-icon-button,
+  .menu #notification .notification-button,
+  .menu #notification .notification-icon-button,
   .popup-menu #notification .notification-button,
-  .popup-menu #notification .notification-icon-button, .sound-button, .menu #notification .notification-button:focus, .menu #notification .notification-icon-button:focus,
+  .popup-menu #notification .notification-icon-button, .sound-button, .menu #notification .notification-button:focus,
+  .menu #notification .notification-icon-button:focus,
   .popup-menu #notification .notification-button:focus,
-  .popup-menu #notification .notification-icon-button:focus, .sound-button:focus, .menu #notification .notification-button:hover, .menu #notification .notification-icon-button:hover,
+  .popup-menu #notification .notification-icon-button:focus, .sound-button:focus, .menu #notification .notification-button:hover,
+  .menu #notification .notification-icon-button:hover,
   .popup-menu #notification .notification-button:hover,
-  .popup-menu #notification .notification-icon-button:hover, .menu-favorites-button:hover, .menu-application-button-selected, .menu-category-button-selected, .sound-button:hover, .menu #notification .notification-button:hover:focus, .menu #notification .notification-icon-button:hover:focus,
+  .popup-menu #notification .notification-icon-button:hover, .menu-favorites-button:hover, .menu-application-button-selected, .menu-category-button-selected, .sound-button:hover, .menu #notification .notification-button:hover:focus,
+  .menu #notification .notification-icon-button:hover:focus,
   .popup-menu #notification .notification-button:hover:focus,
-  .popup-menu #notification .notification-icon-button:hover:focus, .menu-favorites-button:focus:hover, .menu-application-button-selected:focus, .menu-category-button-selected:focus, .sound-button:hover:focus, .menu #notification .notification-button:active, .menu #notification .notification-icon-button:active,
+  .popup-menu #notification .notification-icon-button:hover:focus, .menu-favorites-button:focus:hover, .menu-application-button-selected:focus, .menu-category-button-selected:focus, .sound-button:hover:focus, .menu #notification .notification-button:active,
+  .menu #notification .notification-icon-button:active,
   .popup-menu #notification .notification-button:active,
-  .popup-menu #notification .notification-icon-button:active, .sound-button:active, .menu #notification .notification-button:active:focus, .menu #notification .notification-icon-button:active:focus,
+  .popup-menu #notification .notification-icon-button:active, .sound-button:active, .menu #notification .notification-button:active:focus,
+  .menu #notification .notification-icon-button:active:focus,
   .popup-menu #notification .notification-button:active:focus,
-  .popup-menu #notification .notification-icon-button:active:focus, .sound-button:active:focus, .menu #notification .notification-button:insensitive, .menu #notification .notification-icon-button:insensitive,
+  .popup-menu #notification .notification-icon-button:active:focus, .sound-button:active:focus, .menu #notification .notification-button:insensitive,
+  .menu #notification .notification-icon-button:insensitive,
   .popup-menu #notification .notification-button:insensitive,
   .popup-menu #notification .notification-icon-button:insensitive, .sound-button:insensitive {
     border-radius: 2px; }
-  .menu #notification .notification-button:focus, .menu #notification .notification-icon-button:focus,
+  .menu #notification .notification-button:focus,
+  .menu #notification .notification-icon-button:focus,
   .popup-menu #notification .notification-button:focus,
   .popup-menu #notification .notification-icon-button:focus, .sound-button:focus {
     text-shadow: 0 1px rgba(255, 255, 255, 0);
@@ -41,7 +50,8 @@ stage {
     background-color: #fbfbfc;
     border: 1px solid #5294e2;
     box-shadow: inset 0 2px 4px rgba(251, 251, 252, 0.05); }
-  .menu #notification .notification-button:hover, .menu #notification .notification-icon-button:hover,
+  .menu #notification .notification-button:hover,
+  .menu #notification .notification-icon-button:hover,
   .popup-menu #notification .notification-button:hover,
   .popup-menu #notification .notification-icon-button:hover, .menu-favorites-button:hover, .menu-application-button-selected, .menu-category-button-selected, .sound-button:hover {
     text-shadow: 0 1px rgba(255, 255, 255, 0);
@@ -49,7 +59,8 @@ stage {
     background-color: white;
     border: 1px solid #cfd6e6;
     box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.05); }
-  .menu #notification .notification-button:hover:focus, .menu #notification .notification-icon-button:hover:focus,
+  .menu #notification .notification-button:hover:focus,
+  .menu #notification .notification-icon-button:hover:focus,
   .popup-menu #notification .notification-button:hover:focus,
   .popup-menu #notification .notification-icon-button:hover:focus, .menu-favorites-button:focus:hover, .menu-application-button-selected:focus, .menu-category-button-selected:focus, .sound-button:hover:focus {
     text-shadow: 0 1px rgba(255, 255, 255, 0);
@@ -57,9 +68,11 @@ stage {
     background-color: #fbfbfc;
     border: 1px solid #5294e2;
     box-shadow: inset 0 2px 4px rgba(251, 251, 252, 0.05); }
-  .menu #notification .notification-button:active, .menu #notification .notification-icon-button:active,
+  .menu #notification .notification-button:active,
+  .menu #notification .notification-icon-button:active,
   .popup-menu #notification .notification-button:active,
-  .popup-menu #notification .notification-icon-button:active, .sound-button:active, .menu #notification .notification-button:active:focus, .menu #notification .notification-icon-button:active:focus,
+  .popup-menu #notification .notification-icon-button:active, .sound-button:active, .menu #notification .notification-button:active:focus,
+  .menu #notification .notification-icon-button:active:focus,
   .popup-menu #notification .notification-button:active:focus,
   .popup-menu #notification .notification-icon-button:active:focus, .sound-button:active:focus {
     text-shadow: 0 1px rgba(255, 255, 255, 0);
@@ -67,7 +80,8 @@ stage {
     background-color: #5294e2;
     border: 1px solid #5294e2;
     box-shadow: inset 0 2px 4px #5294e2; }
-  .menu #notification .notification-button:insensitive, .menu #notification .notification-icon-button:insensitive,
+  .menu #notification .notification-button:insensitive,
+  .menu #notification .notification-icon-button:insensitive,
   .popup-menu #notification .notification-button:insensitive,
   .popup-menu #notification .notification-icon-button:insensitive, .sound-button:insensitive {
     text-shadow: 0 1px rgba(255, 255, 255, 0);
@@ -171,14 +185,17 @@ StScrollBar {
   StScrollBar StBin#trough {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 8px; }
-  StScrollBar StButton#vhandle, StScrollBar StButton#hhandle {
+  StScrollBar StButton#vhandle,
+  StScrollBar StButton#hhandle {
     border-radius: 2px;
     background-color: #b8babf;
     border: 0px solid;
     margin: 0px; }
-    StScrollBar StButton#vhandle:hover, StScrollBar StButton#hhandle:hover {
+    StScrollBar StButton#vhandle:hover,
+    StScrollBar StButton#hhandle:hover {
       background-color: #c7c9cd; }
-    StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
+    StScrollBar StButton#vhandle:active,
+    StScrollBar StButton#hhandle:active {
       background-color: #5294e2; }
 
 .separator {
@@ -303,7 +320,8 @@ StScrollBar {
     .menu .popup-sub-menu StScrollBar,
     .popup-menu .popup-sub-menu StScrollBar, .popup-combo-menu .popup-sub-menu StScrollBar {
       padding: 4px; }
-      .menu .popup-sub-menu StScrollBar StBin#trough, .menu .popup-sub-menu StScrollBar StBin#vhandle,
+      .menu .popup-sub-menu StScrollBar StBin#trough,
+      .menu .popup-sub-menu StScrollBar StBin#vhandle,
       .popup-menu .popup-sub-menu StScrollBar StBin#trough,
       .popup-menu .popup-sub-menu StScrollBar StBin#vhandle, .popup-combo-menu .popup-sub-menu StScrollBar StBin#trough, .popup-combo-menu .popup-sub-menu StScrollBar StBin#vhandle {
         border-width: 0; }
@@ -700,7 +718,8 @@ StScrollBar {
     .popup-menu #notification,
     .popup-menu #notification.multi-line-notification {
       color: #5c616c; }
-    .menu #notification .notification-button, .menu #notification .notification-icon-button,
+    .menu #notification .notification-button,
+    .menu #notification .notification-icon-button,
     .popup-menu #notification .notification-button,
     .popup-menu #notification .notification-icon-button {
       padding: 5px; }
@@ -709,7 +728,8 @@ StScrollBar {
     color: #BAC3CF; }
   #notification-scrollview {
     max-height: 10em; }
-    #notification-scrollview > .top-shadow, #notification-scrollview > .bottom-shadow {
+    #notification-scrollview > .top-shadow,
+    #notification-scrollview > .bottom-shadow {
       height: 1em; }
     #notification-scrollview:ltr > StScrollBar {
       padding-left: 6px; }
@@ -1337,14 +1357,16 @@ StScrollBar {
 .applet-label {
   font-weight: bold;
   color: white; }
-  .applet-label:hover, .applet-box:hover > .applet-label {
+  .applet-label:hover,
+  .applet-box:hover > .applet-label {
     color: #ffffff;
     text-shadow: none; }
 
 .applet-icon {
   color: white;
   icon-size: 22px; }
-  .applet-icon:hover, .applet-box:hover > .applet-icon {
+  .applet-icon:hover,
+  .applet-box:hover > .applet-icon {
     color: #ffffff;
     text-shadow: none; }
 
@@ -1411,8 +1433,10 @@ StScrollBar {
 .notification-applet-container {
   max-height: 100px; }
 
-.tile-preview, .tile-preview.snap,
-.tile-hud, .tile-hud.snap {
+.tile-preview,
+.tile-preview.snap,
+.tile-hud,
+.tile-hud.snap {
   background-color: rgba(82, 148, 226, 0.3);
   border: 1px solid #5294e2; }
 
